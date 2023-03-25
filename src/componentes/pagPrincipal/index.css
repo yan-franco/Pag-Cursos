@@ -1,0 +1,119 @@
+.menu{
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid gray;
+}
+
+.imglogo{
+    height: 70px;
+    margin: 5px;
+}
+
+.titulo{
+    width: auto;
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+    font-size: 15px;
+    color: lightblue;
+    font-weight: 100;
+}
+
+.conted{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.conted .card{
+    width: 330px;
+    height: 430px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    /* background-color: #fff;
+    width: 50%;
+    height: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+    position: relative;
+
+    display: flex;
+    float: none; */
+}
+
+.conted .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.conted .card img{
+    width: 330px;
+    /* height: 220px; */
+}
+
+.youLogo{
+    background-color: red;
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.25s;
+
+    position: fixed;
+    top: 130px;
+}
+
+.youLogo:hover{
+    transform: translateY(-5px);
+    background-color: darkred;
+}
+
+.instalogo{
+    background-color: rgb(192, 75, 192);
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.25s;
+
+    position: fixed;
+    top: 200px;
+}
+
+.instalogo:hover{
+    transform: translateY(-5px);
+    background-color: purple;
+}
+
+.TikToklogo{
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    border-radius: 20px;
+    transition: 0.25s;
+
+    position: fixed;
+    top: 270px;
+}
+
+.TikToklogo:hover{
+    transform: translateY(-5px);
+    background-color: gray;
+}
